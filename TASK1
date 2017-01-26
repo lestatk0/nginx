@@ -1,0 +1,36 @@
+create repo for centos 
+vi /etc/yumrepos.d/nginx.repo
+    [nginx]
+    name=nginx repo
+    baseurl=http://nginx.org/packages/OS/OSRELEASE/$basearch/
+    gpgcheck=0
+    enabled=1
+
+yum install nginx
+systemctl start nginx.service
+systemctl enable nginx.service
+
+
+
+for install from source
+
+yum install -y gcc gcc-c++ git
+mkdir -R /tmp/nginx
+cd /tmp/nginx
+
+wget https://ftp.pcre.org/pub/pcre/pcre-8.38.tar.gz
+wget https://www.openssl.org/source/openssl-1.0.2k.tar.gz
+wget http://nginx.org/download/nginx-1.11.9.tar.gz
+
+tar -xvf pcre-8.38.tar.gz
+tar -xvf openssl-1.0.2k.tar.gz
+tar -xvf nginx-1.11.9.tar.gz
+
+wget https://github.com/vozlt/nginx-module-vts/archive/master.zip
+unzip master.zip
+
+cd nginx-1.11.9
+./configure --prefix=/home/anton/nginx --user=anton --with-http_ssl_module --with-http_realip_module --without-http_gzip_module --add-module=/tmp/nginx/nginx-module-vts-master --with-pcre=/tmp-/nginx/pcre-8.40 --with-openssl=/tmp/nginx/openssl-1.0.2j
+
+make
+make install
