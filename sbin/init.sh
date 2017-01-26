@@ -51,7 +51,7 @@ NGINX_CONF_FILE="/home/anton/nginx/conf/nginx.conf"
 
 
 
-lockfile=/home/anton/nginx/lock/subsys/nginx
+#lockfile=/home/anton/nginx/lock/subsys/nginx
 
 
 
