@@ -47,7 +47,7 @@ NGINX_CONF_FILE="/home/anton/nginx/conf/nginx.conf"
 
 
 
-[ -f /home/user/nginx/conf ] && . /home/user/nginx/conf
+[ -f /home/anton/nginx/conf ] && . /home/anton/nginx/conf
 
 
 
