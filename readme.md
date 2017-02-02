@@ -5,6 +5,6 @@
 ### Questions
 ---
 
-#### What java version is installed?
+#### 1.What java version is installed?
 
 *java -version*
