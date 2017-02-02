@@ -38,7 +38,7 @@ In our case traffik was increased during last 15 minutes
 
 |  	| Issue | How to find 	|Time to find 	|   How to fix	|  Time to fix 	|
 |----------	|:-------------:	|------:	|---	|---	|---	|
-| 1	| Site isn't working |Try to enter the site 	| 1 min 	|   whatch IPTABLE rules 	|  5 min  	|
+| 1	| Site isn't working |Try to enter the site 	| 1 min 	|   watch IPTABLE rules 	|  5 min  	|
 | 2	|  Site with 503 error	| Try command curl -sL -w "%{http_code}" $url -o /dev/null	|  2 min 	| Look into httpd.conf and delete Rewrite |   5 min	|
 | 3 | Tomcat is not started	|Try to get tomcat under 8080 port | 2 min	| Change owner of *logs* dir 	|  3 min 	|
 | 4 |  Httpd isn't give right page 	|curl localhost	| 2 min	| Correct workers and vhost.conf  |  7 min 	|
