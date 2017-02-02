@@ -20,6 +20,8 @@
 #### 5.Where is tomcat installed?
 #### 6.What is CATALINA_HOME?
 #### 7.What users run httpd and tomcat processes? How is it configured?
+Httpd is started by root because it needs to use port 80, as we know ports between 0 and 1024 can be used only by root
+Tomcat hasn't such need and we run it by user "tomcat".
 #### 8.What configuration files are used to make components work with each other?
 Here we use mod_jk to connect **httpd** with **Tomcat** 
 #### 9.What does it mean: “load average: 1.18, 0.95, 0.83”?
