@@ -33,7 +33,7 @@ Here we use mod_jk to connect **httpd** with **Tomcat** under  AJP protocol.
 * over 1.00 means there's overflow  
 In our case traffik was increased during last 15 minutes
 ---  
-|   	|   	|   	|   	|   	|
+|  1 	|   2	|  3 	|   4	|   5	|
 |---	|---	|---	|---	|---	|
 |   	|   	|   	|   	|   	|
 |   	|   	|   	|   	|   	|
