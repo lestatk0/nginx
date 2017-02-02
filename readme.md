@@ -32,7 +32,7 @@ Here we use mod_jk to connect **httpd** with **Tomcat** under  AJP protocol.
 * 1.00 means the bridge is exactly at capacity  
 * over 1.00 means there's overflow  
 In our case traffik was increased during last 15 minutes
----
+---  
 |   	|   	|   	|   	|   	|
 |---	|---	|---	|---	|---	|
 |   	|   	|   	|   	|   	|
