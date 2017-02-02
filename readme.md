@@ -34,7 +34,8 @@ Here we use mod_jk to connect **httpd** with **Tomcat** under  AJP protocol.
 In our case traffik was increased during last 15 minutes  
 
 ***  
-  
+###Report table
+
 |  	| Issue | How to find 	|Time to find 	|   How to fix	|  Time to fix 	|
 |----------	|:-------------:	|------:	|---	|---	|---	|
 | 1	| Site isn't working |Try to enter the site 	| 1 min 	|   whatch IPTABLE rules 	|  5 min  	|
