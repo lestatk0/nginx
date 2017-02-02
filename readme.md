@@ -44,5 +44,5 @@ In our case traffik was increased during last 15 minutes
 | 4 |  Httpd isn't give right page 	|curl localhost	| 2 min	| Correct workers and vhost.conf  |  7 min 	|
 | 5 |   Java isn't work	| tomcat is not working correctly  	|  1 min 	| update-alternatives java and choose correct dir	| 5 min|
 | 6 |  tomcat isn't start after reboot 	|  Reboot system 	| 5 min  	| Run command chkconfig tomcat on and correct /etc/init.d/tomcat file  	|  5 min 	|
-| 7 |               	|       	|   	|   	|   	|
-| 8 |               	|       	|   	|   	|   	|
+| 7 |    Can't read httpd logs 	|  Try to read logs  	| 1 min  	| chmod -R 755 /etc/log/httpd  	|  2 min 	|
+
