@@ -16,10 +16,12 @@
  **Httpd logs** - /var/log/httpd  
  **Tomcat logs** at the same folder as other tomcat's files  
 
-#### 4.Where is JAVA_HOME and what is it?
-#### 5.Where is tomcat installed?
-#### 6.What is CATALINA_HOME?
-#### 7.What users run httpd and tomcat processes? How is it configured?
+### 4.Where is JAVA_HOME and what is it?
+### 5.Where is tomcat installed?
+echo $CATALINA_HOME
+### 6.What is CATALINA_HOME?
+This variable shows us the way of tomcat's home directory
+###7.What users run httpd and tomcat processes? How is it configured?
 Httpd is started by root because it needs to use port 80, as we know ports between 0 and 1024 can be used only by root
 Tomcat hasn't such need and we run it by user "tomcat".
 #### 8.What configuration files are used to make components work with each other?
