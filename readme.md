@@ -34,13 +34,13 @@ Here we use mod_jk to connect **httpd** with **Tomcat** under  AJP protocol.
 In our case traffik was increased during last 15 minutes  
 ---  
   
-|   	|      Issue   	| How to find 	|Time to find 	|   How to fix	|  Time to fix 	|
+|  	| Issue | How to find 	|Time to find 	|   How to fix	|  Time to fix 	|
 |----------	|:-------------:	|------:	|---	|---	|---	|
-| col 1 is 	|  left-aligned 	| $1600 	|   	|   	|   	|
-| col 2 is 	|    centered   	|   $12 	|   	|   	|   	|
-| col 3 is 	| right-aligned 	|    $1 	|   	|   	|   	|
-|          	|               	|       	|   	|   	|   	|
-|          	|               	|       	|   	|   	|   	|
-|          	|               	|       	|   	|   	|   	|
-|          	|               	|       	|   	|   	|   	|
-|          	|               	|       	|   	|   	|   	|
+| 1	| Site isn't working |Try to enter the site 	| 1 min 	|   Read logs 	|  40 min  	|
+| 2	|  Site with 503 error	| Try command curl -sL -w "%{http_code}" $url -o /dev/null	|  2 min 	| Look into httpd.conf and delete Rewrite |   5 min	|
+| 3 | right-aligned 	|    $1 	|   	|   	|   	|
+| 4 |               	|       	|   	|   	|   	|
+| 5 |               	|       	|   	|   	|   	|
+| 6 |               	|       	|   	|   	|   	|
+| 7 |               	|       	|   	|   	|   	|
+| 8 |               	|       	|   	|   	|   	|
