@@ -5,22 +5,22 @@
 ## Questions
 
 
-### 1.What java version is installed?
+#### 1.What java version is installed?
 
 *java -version*
 
-### 2.How was it installed and configured?
+#### 2.How was it installed and configured?
 **
 
-### 3.Where are log files of tomcat and httpd?
+#### 3.Where are log files of tomcat and httpd?
  **Httpd logs** - /var/log/httpd  
  **Tomcat logs** at the same folder as other tomcat's files.  
 
-### 4.Where is JAVA_HOME and what is it?
+#### 4.Where is JAVA_HOME and what is it?
 JAVA_HOME is just a variable to find path where Java is installed.
-### 5.Where is tomcat installed?
+#### 5.Where is tomcat installed?
 *echo $CATALINA_HOME*
-### 6.What is CATALINA_HOME?
+#### 6.What is CATALINA_HOME?
 This variable shows us the way of tomcat's home directory.
 ###7.What users run httpd and tomcat processes? How is it configured?
 Httpd is started by root because it needs to use port 80, as we know ports between 0 and 1024 can be used only by root
