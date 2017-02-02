@@ -10,7 +10,7 @@
 *java -version*
 
 #### 2.How was it installed and configured?
-**
+Download two version of java archive, unpack it into /opt/oracle/java 
 
 #### 3.Where are log files of tomcat and httpd?
  **Httpd logs** - /var/log/httpd  
