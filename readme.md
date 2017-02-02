@@ -2,17 +2,17 @@
 
 
 
-### Questions
----
+## Questions
 
-#### 1.What java version is installed?
+
+### 1.What java version is installed?
 
 *java -version*
 
-#### 2.How was it installed and configured?
+### 2.How was it installed and configured?
 **
 
-#### 3.Where are log files of tomcat and httpd?
+### 3.Where are log files of tomcat and httpd?
 **Httpd logs** - /var/log/httpd  
 **Tomcat logs** at the same folder as other tomcat's files
 
