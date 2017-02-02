@@ -30,5 +30,5 @@ Here we use mod_jk to connect **httpd** with **Tomcat** under  AJP protocol.
 #### 9.What does it mean: “load average: 1.18, 0.95, 0.83”?
 * 0.00 means there's no traffic on the bridge at all  
 * 1.00 means the bridge is exactly at capacity  
-* over 1.00 means there's overflow
+* over 1.00 means there's overflow  
 In our case traffik was increased during last 15 minutes
