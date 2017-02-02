@@ -13,7 +13,7 @@
 **
 
 #### 3.Where are log files of tomcat and httpd?
-**Httpd logs** - /var/log/httpd <br/>
+**Httpd logs** - /var/log/httpd  
 **Tomcat logs** at the same folder as other tomcat's files
 
 #### 4.Where is JAVA_HOME and what is it?
