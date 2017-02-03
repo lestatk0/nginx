@@ -31,7 +31,7 @@ Here we use mod_jk to connect **httpd** with **Tomcat** under  AJP protocol.
 * 0.00 means there's no traffic on the proc at all  
 * 1.00 means the proc is exactly at capacity  
 * over 1.00 means there's overflow  
-In our case traffik of system was increased during last 15 minutes  
+In our case traffik on system was increased during last 15 minutes  
 
 ***  
 ###Report table
